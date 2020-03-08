@@ -249,9 +249,6 @@ public final class Bootstrap {
      */
     public void init() throws Exception {
 
-        log.info("史战伟");
-        System.out.println("史战伟");
-
         initClassLoaders();
 
         Thread.currentThread().setContextClassLoader(catalinaLoader);
